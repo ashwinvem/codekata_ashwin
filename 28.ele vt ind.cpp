@@ -3,23 +3,23 @@ using namespace std;
 
 int main()
 {
-    int eleCount, *eleArray;
+    int Count, *eleArray;
     
-    cin >> eleCount;
+    cin >> Count;
     
-    eleArray = new int[eleCount];
+    eleArray = new int[Count];
     
-    for(int ind = 0; ind < eleCount; ind++)
+    for(int ind = 0; ind < Count; ind++)
     {
         cin >> eleArray[ind];
     }
     
-    for(int ind = 0; ind < eleCount-1; ind++)
+    for(int ind = 0; ind < Count-1; ind++)
     {
         cout << eleArray[ind] << " " << ind << endl;
     }
     
-    cout << eleArray[eleCount-1] << " " << eleCount-1;
+    cout << eleArray[Count-1] << " " << Count-1;
     
     return 0;
     
