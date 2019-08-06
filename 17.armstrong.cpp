@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
   int origNum, num, rem, sum = 0;
-  cout << "Enter a positive  integer: ";
+  
   cin >> origNum;
   num = origNum;
   while(num != 0)
@@ -13,8 +13,9 @@ int main()
       num /= 10;
   }
   if(sum == origNum)
-    cout << origNum << " is an Armstrong number.";
+    cout<< "yes";
   else
-    cout << origNum << " is not an Armstrong number.";
+    cout<< "no";
   return 0;
 }
+
