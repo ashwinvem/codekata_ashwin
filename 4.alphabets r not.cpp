@@ -3,12 +3,12 @@ using namespace std;
 
 char ch;
 int main(){
-    cout<<"alphabet";
+
     cin>>ch;
     if(isalpha(ch))
-    cout<<"s it's";
+    cout<<"Alphabet";
     else
-    cout<<"no it's not";
+    cout<<"No";
     
     return 0;
 }
