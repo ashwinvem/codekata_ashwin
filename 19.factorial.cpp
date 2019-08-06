@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    int fact, res = 1;
+    int facto, res = 1;
     
-    cin >> fact;
+    cin >> facto;
     
     while(fact)
     {
-        res *= fact;
+        res *= facto;
         fact--;
     }
     cout << res;
