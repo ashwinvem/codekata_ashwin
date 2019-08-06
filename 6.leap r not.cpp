@@ -1,17 +1,19 @@
 #include <iostream>
 using namespace std;
 
-float n1,n2,n3;
+int yr;
 int main(){
-    cout<<"enter 3 nums";
-    cin>>n1>>n2>>n3;
-    if(n1>=n2 && n1>=n3)
-    cout<<n1;
-    if(n2>=n1 && n2>=n3)
-    cout<<n2;
-    if(n3>=n2 && n3>=n1)
-    cout<<n3;
+    
+    cin>>yr;
+    if(yr%4==0 && yr%100!=0){
+        cout<<"yes";
+    }
+    if(yr%400==0)
+    cout<<"yes";
+    if(yr%100==0 && yr%400==0)
+    cout<<"yes";
+    else
+    cout<<"no";
     
     return 0;
-    
 }
