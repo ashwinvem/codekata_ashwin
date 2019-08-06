@@ -7,10 +7,10 @@ int main()
     
     cin >> facto;
     
-    while(fact)
+    while(facto)
     {
         res *= facto;
-        fact--;
+        facto--;
     }
     cout << res;
     return 0;
