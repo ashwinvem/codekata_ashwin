@@ -27,7 +27,7 @@ using namespace std;
 int main()
 {
     int n, flag = 1;
-    cin >> num;
+    cin >> n;
     
     for(int divisor = 2; divisor <= n/2; divisor++)
     {
