@@ -1,15 +1,23 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int num;
 int main(){
-    cout<<"number";
-    cin>>num;
-    if(num%2==0){
-        cout<<"even";
+  int n;
+  cin >> n;
+  if(n > -1)
+  {
+    if( n % 2 )
+    {
+      cout << "Odd";
     }
-    else{
-        cout<<"odd";
+    else
+    {
+      cout << "Even";
     }
-    return 0;
+  }
+  else
+  {
+    cout << "invalid";
+  }
+  return 0;  
 }
