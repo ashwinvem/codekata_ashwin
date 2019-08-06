@@ -4,10 +4,10 @@ using namespace std;
 int main(){
     int num,min,max;
 
-    cout<<"enter max";
-    cin>>max;
-    cout<<"min pls";
+    
     cin>>min;
+    
+    cin>>max;
     for(num=min+1;num<max;++num){
         bool isPrime = true;
         for(int i = 2; i <= num / 2; ++i)
@@ -23,3 +23,4 @@ int main(){
     }
     
 }
+
